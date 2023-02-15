@@ -1,0 +1,10 @@
+.vscode
+*.html
+*.pdf
+*.docx
+*.rtf
+*.odt
+*.epub
+build/
+chapters.md
+input.*

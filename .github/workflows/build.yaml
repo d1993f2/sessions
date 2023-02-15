@@ -1,0 +1,37 @@
+name: Build session files
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    env:
+      DEBIAN_FRONTEND: noninteractive
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Create build directory
+        run: mkdir build
+      - name: Build all using Docker
+        run: |
+          ./build-all-docker.sh
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Session files
+          path: |
+            build/*
+      - name: Copy index.html to the build folder
+        run: |
+          cp index.html build/
+      - name: Push to repository
+        uses: tech-thinker/push-to-repo@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.REPO_API_TOKEN }}
+        with:
+          user-name: "session-builder-bot"
+          user-email: session-builder-bot@users.noreply.github.com
+          source-directory: "build"
+          destination-github-username: "d1993f2"
+          destination-repository-name: "d1993f2.github.io"
+          target-branch: master

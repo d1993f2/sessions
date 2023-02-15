@@ -1,0 +1,7 @@
+---
+header-includes: |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhead[CE]{}
+    \fancyfoot[C]{\thepage}
+---
