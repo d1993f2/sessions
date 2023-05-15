@@ -24,6 +24,7 @@ jobs:
       - name: Copy index.html to the build folder
         run: |
           cp index.html build/
+          cp CNAME build/
       - name: Push to repository
         uses: tech-thinker/push-to-repo@main
         env:
