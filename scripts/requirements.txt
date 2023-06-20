@@ -1,0 +1,2 @@
+langchain==0.0.206
+llama_index==0.6.12
