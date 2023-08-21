@@ -1,7 +1,4 @@
-FROM pandoc/latex:2.19.2.0-ubuntu
-
-ENV DEBIAN_FRONTEND=noninteractive
-RUN apt update && apt install --yes calibre make texlive-extra-utils
+FROM d1993f2/pandoc:latest
 
 COPY . /book/
 WORKDIR /book
