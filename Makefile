@@ -6,7 +6,7 @@ pdf-small:
 	pandoc -s -f markdown-fancy_lists \
 		--table-of-contents \
 		--number-sections \
-		--pdf-engine=$(shell pwd)/xelatex \
+		--pdf-engine=xelatex \
 		--highlight-style=monochrome \
 		--metadata-file=metadata-pdf-small.md \
 		--file-scope \
@@ -18,7 +18,7 @@ pdf:
 	pandoc -s -f markdown-fancy_lists \
 		--table-of-contents \
 		--number-sections \
-		--pdf-engine=$(shell pwd)/xelatex \
+		--pdf-engine=xelatex \
 		--highlight-style=monochrome \
 		--metadata-file=metadata-pdf.md \
 		--file-scope \
@@ -32,10 +32,10 @@ epub:
 		--highlight-style=monochrome \
 		--metadata-file=metadata-epub.md \
 		--file-scope \
-		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-Regular.ttf \
-		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-Bold.ttf \
-		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-Italic.ttf \
-		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-BoldItalic.ttf \
+		--epub-embed-font=/opt/texlive/texdir/texmf-dist/fonts/truetype/production/spectral/Spectral-Regular.ttf \
+		--epub-embed-font=/opt/texlive/texdir/texmf-dist/fonts/truetype/production/spectral/Spectral-Bold.ttf \
+		--epub-embed-font=/opt/texlive/texdir/texmf-dist/fonts/truetype/production/spectral/Spectral-Italic.ttf \
+		--epub-embed-font=/opt/texlive/texdir/texmf-dist/fonts/truetype/production/spectral/Spectral-BoldItalic.ttf \
 		--css=epub.css \
 		-o build/sessions.epub \
 		$(CHAPTERS)
