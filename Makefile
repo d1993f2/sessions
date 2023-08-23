@@ -32,6 +32,11 @@ epub:
 		--highlight-style=monochrome \
 		--metadata-file=metadata-epub.md \
 		--file-scope \
+		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-Regular.ttf \
+		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-Bold.ttf \
+		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-Italic.ttf \
+		--epub-embed-font=/usr/share/texlive/texmf-dist/fonts/truetype/production/spectral/Spectral-BoldItalic.ttf \
+		--css=epub.css \
 		-o build/sessions.epub \
 		$(CHAPTERS)
 

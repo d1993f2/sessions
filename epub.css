@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Spectral;
+    font-style: normal;
+    font-weight: normal;
+    src:url("../fonts/Spectral-Regular.ttf");
+ }
+ @font-face {
+    font-family: Spectral;
+    font-style: normal;
+    font-weight: bold;
+    src:url("../fonts/Spectral-Bold.ttf");
+ }
+ @font-face {
+    font-family: Spectral;
+    font-style: italic;
+    font-weight: normal;
+    src:url("../fonts/Spectral-Italic.ttf");
+ }
+ @font-face {
+    font-family: Spectral;
+    font-style: italic;
+    font-weight: bold;
+    src:url("../fonts/Spectral-BoldItalic.ttf");
+ }
+ body { font-family: "Spectral"; }
