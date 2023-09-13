@@ -1,25 +1,22 @@
 @font-face {
-    font-family: Spectral;
+    font-family: LibreCaslonText;
     font-style: normal;
     font-weight: normal;
-    src:url("../fonts/Spectral-Regular.ttf");
- }
- @font-face {
-    font-family: Spectral;
+    src:url("../fonts/LibreCaslonText-Regular.ttf");
+}
+@font-face {
+    font-family: LibreCaslonText;
     font-style: normal;
     font-weight: bold;
-    src:url("../fonts/Spectral-Bold.ttf");
- }
- @font-face {
-    font-family: Spectral;
+    src:url("../fonts/LibreCaslonText-Bold.ttf");
+}
+@font-face {
+    font-family: LibreCaslonText;
     font-style: italic;
     font-weight: normal;
-    src:url("../fonts/Spectral-Italic.ttf");
- }
- @font-face {
-    font-family: Spectral;
-    font-style: italic;
-    font-weight: bold;
-    src:url("../fonts/Spectral-BoldItalic.ttf");
- }
- body { font-family: "Spectral"; }
+    src:url("../fonts/LibreCaslonText-Italic.ttf");
+}
+body { 
+   font-family: "LibreCaslonText";
+   text-align: justify;
+}

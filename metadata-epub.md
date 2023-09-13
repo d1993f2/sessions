@@ -9,7 +9,6 @@ author:
 cover-image: assets/cover.svg
 
 fontsize: 11pt
-fontfamily: spectral
 documentclass: report
 papersize: Trade
 linestretch: 1

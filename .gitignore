@@ -9,3 +9,4 @@ build/
 chapters.md
 input.*
 .chat
+.DS_Store

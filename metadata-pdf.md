@@ -8,7 +8,6 @@ subtitle: July 1994 - July 2023
 author:
 - The Cassiopaea Forum
 
-fontfamily: spectral
 fontsize: 12pt
 documentclass: report
 papersize: trade
