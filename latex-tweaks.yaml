@@ -4,5 +4,5 @@ header-includes: |
     \pagestyle{fancy}
     \fancyhead[CE]{}
     \fancyfoot[C]{\thepage}
-    \setmainfont{LibreCaslonText-Regular}
+    \setmainfont{NotoSerif-Regular}
 ---

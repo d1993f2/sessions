@@ -1,22 +1,28 @@
 @font-face {
-    font-family: LibreCaslonText;
+    font-family: NotoSerif;
     font-style: normal;
     font-weight: normal;
-    src:url("../fonts/LibreCaslonText-Regular.ttf");
+    src:url("../fonts/NotoSerif-Regular.ttf");
 }
 @font-face {
-    font-family: LibreCaslonText;
+    font-family: NotoSerif;
     font-style: normal;
     font-weight: bold;
-    src:url("../fonts/LibreCaslonText-Bold.ttf");
+    src:url("../fonts/NotoSerif-Bold.ttf");
 }
 @font-face {
-    font-family: LibreCaslonText;
+    font-family: NotoSerif;
     font-style: italic;
     font-weight: normal;
-    src:url("../fonts/LibreCaslonText-Italic.ttf");
+    src:url("../fonts/NotoSerif-Italic.ttf");
+}
+@font-face {
+    font-family: NotoSerif;
+    font-style: italic;
+    font-weight: bold;
+    src:url("../fonts/NotoSerif-BoldItalic.ttf");
 }
 body { 
-   font-family: "LibreCaslonText";
+   font-family: "NotoSerif";
    text-align: justify;
 }

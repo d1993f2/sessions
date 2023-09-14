@@ -1,4 +1,5 @@
 # Introduction
+## What is “Cassiopaea”?
 
 The name "Cassiopaea" was given by a consciously "channeled source" which Laura Knight-Jadyczk accessed in 1994 after two years of experimental work. The source identified itself by saying **"we are you in the future."** Modern physics does not provide us with practical means for this type of communication, and theories on this subject are not well developed; they are, in fact, inconclusive and controversial.
 
