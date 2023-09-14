@@ -41,7 +41,7 @@ case $1 in
     ;;
 
     azw3)
-        ebook-convert build/sessions.epub build/$3
+        ebook-convert build/$4 build/$3
     ;;
 
     docx)

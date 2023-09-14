@@ -12,7 +12,7 @@ epub:
 	./build.sh epub chapters sessions.epub
 
 azw3: epub
-	./build.sh azw3 chapters sessions.azw3
+	./build.sh azw3 chapters sessions.azw3 sessions.epub
 
 docx:
 	./build.sh docx chapters sessions.docx
