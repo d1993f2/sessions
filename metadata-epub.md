@@ -1,7 +1,7 @@
 ---
 title: |
     The Cassiopaea Session Transcripts
-subtitle: July 1994 - July 2023
+subtitle: July 1994 - March 2024
 
 author:
 - The Cassiopaea Forum
