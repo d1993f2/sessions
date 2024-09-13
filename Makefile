@@ -1,4 +1,4 @@
-all: pdf pdf-small epub azw3 docx html pdf-fr pdf-small-fr epub-fr azw3-fr docx-fr html-fr
+all: pdf pdf-small epub azw3 docx html pdf-fr pdf-small-fr epub-fr azw3-fr docx-fr html-fr latex
 
 pdf-small:
 	./build.sh pdf-small chapters
@@ -35,3 +35,6 @@ docx-fr:
 
 html-fr:
 	./build.sh html chapters-fr -fr
+
+latex:
+	./build.sh latex chapters

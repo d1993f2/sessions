@@ -15,6 +15,19 @@ case $1 in
             $CHAPTERS
     ;;
 
+    latex)
+        pandoc -s -f markdown-fancy_lists \
+            --table-of-contents \
+            --number-sections \
+            --pdf-engine=xelatex \
+            --highlight-style=monochrome \
+            --metadata-file=metadata-pdf$3.md \
+            --file-scope \
+            latex-tweaks.yaml \
+            -o build/sessions$3.tex \
+            $CHAPTERS
+    ;;
+
     pdf-small)
         pandoc -s -f markdown-fancy_lists \
             --table-of-contents \
